@@ -1,0 +1,8 @@
+---
+
+- name: Create sysctl configuration
+  template:
+    src: sysctl.conf.j2
+    dest: "{{ sysctl_config_location }}"
+  notify:
+    - Reload sysctl configuration
