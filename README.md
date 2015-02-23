@@ -28,7 +28,7 @@ List of variables used by the role:
 
 ```
 # Default sysctl configuration
-sysctl_config: []
+sysctl_config: {}
 
 # Default sysctl.conf location
 sysctl_config_location: /etc/sysctl.conf
