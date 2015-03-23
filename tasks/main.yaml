@@ -6,3 +6,5 @@
     dest: "{{ sysctl_config_location }}"
   notify:
     - Reload sysctl configuration
+  tags:
+    - sysctl_config
