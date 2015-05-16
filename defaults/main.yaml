@@ -2,6 +2,8 @@
 
 # Default sysctl configuration
 sysctl_config: {}
+sysctl_group_config: {}
+sysctl_host_config: {}
 
 # Default sysctl.conf location
 sysctl_config_location: /etc/sysctl.conf
