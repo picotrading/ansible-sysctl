@@ -7,3 +7,11 @@
 {% for key, value in sysctl_config | dictsort -%}
   {{ key }} = {{ value }}
 {% endfor %}
+
+{% for key, value in sysctl_group_config | dictsort -%}
+  {{ key }} = {{ value }}
+{% endfor %}
+
+{% for key, value in sysctl_host_config | dictsort -%}
+  {{ key }} = {{ value }}
+{% endfor %}
